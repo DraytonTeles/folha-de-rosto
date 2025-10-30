@@ -8,19 +8,86 @@
 </head>
 <body>
 
-    <div class="card">
-        <img src="https://via.placeholder.com/120" alt="Foto de perfil">
-        <h1>Nome do Aluno</h1>
-        <p><strong>Idade:</strong> 13 anos</p>
+<style>
+        /* ======== ESTILO GERAL ======== */
+        body {
+            font-family: "Poppins", sans-serif;
+            background-color: #f0f4f8;
+            color: #3d0000;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
 
-        <div class="info">
+        .card {
+            background-color: #e2d274;
+            border-radius: 16px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            width: 350px;
+            padding: 25px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(29, 21, 21, 0.15);
+        }
+
+        img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid #44004d;
+        }
+
+        h1 {
+            font-size: 1.6em;
+            margin-bottom: 5px;
+            color: #8a331e;
+        }
+
+        p {
+            margin: 8px 0;
+            justify-content: center;
+        }
+
+        .info {
+            text-align: left;
+            margin-top: 15px;
+        }
+
+        .info strong {
+            color: #0077ff;
+        }
+
+        .contato {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #00633a;
+        }
+
+
+    </style>
+
+    <div class="card">
+        <img src="imagens/Avatar Drayton.png" alt="Foto de perfil">
+        <h1>Drayton Teles</h1>
+        <p><strong>Idade:</strong> 28 anos</p>
+
+        <div class="informação">
             <p><strong>Jogo/Série/Filme favorito:</strong> Dentre tantas experiencias que eu tive com filmes e séries, vou compartilhar um jogo que gostei muito: THE WITCHER 3</p>
-            <p><img src="https://wallpapercave.com/wp/wp1854785.jpg" alt="Foto do jogo"</p>
-            <p><strong>Sobre mim:</strong> Gosto de aprender coisas novas, jogar videogame e assistir séries de mistério.</p>
+            <p><img src="imagens/TW3.jpg" alt="Foto do jogo"</p>
+            <p><strong>Sobre mim:</strong> Goste de passar tempo com pessoas que amo, quando sozinho gosto de jogar jogos</p>
         </div>
 
         <div class="contato">
-            <p><strong>Contato:</strong> aluno@email.com</p>
+            <p><strong>Contato:</strong> drayton.teles@gmail.com</p>
         </div>
     </div>
 
